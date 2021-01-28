@@ -14,7 +14,7 @@ config SPM
 
 if SPM
 module=SPM
-source "${ZEPHYR_BASE}/../nrf/subsys/partition_manager/Kconfig.template.build_strategy"
+rsource "../partition_manager/Kconfig.template.build_strategy"
 endif
 
 

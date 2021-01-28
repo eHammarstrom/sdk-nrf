@@ -21,6 +21,10 @@ config ZTEST_STACKSIZE
 config PRIVILEGED_STACK_SIZE
 	default 2048 if ZTEST
 
+config USE_NCS_VERSION_CODE
+	bool "Generate NCS code version header"
+	default y
+
 rsource "samples/Kconfig"
 rsource "subsys/Kconfig"
 rsource "lib/Kconfig"
